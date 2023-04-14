@@ -1,0 +1,162 @@
+
+p{
+  font-family: Roboto, arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.youtube-logo-div{
+  
+}
+
+.toolbar-restofthesite{
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  margin-top: 10px;
+}
+
+.youtube-logo{
+  width:150px;
+}
+
+.search-bar{
+  display: block;
+  margin-bottom: 20px;
+  height: 24px;
+}
+
+.searchbar-searchimage-div{
+  display:grid;
+  grid-template-columns: 150px 1fr;
+  margin-left: 300px;
+}
+
+.search-image{
+  width: 20px;
+}
+
+.search-image-div{
+  width:20px;
+  vertical-align:top;
+  margin-inline-start: 0px;
+}
+
+.thumbnail{
+  width: 300px;
+  display: block;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+.video-title{
+  margin-top: 0px;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 8px;
+  color: black;
+}
+
+.video-preview{
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.channel-picture{
+  width: 50px;
+  display: inline-block;
+  vertical-align: top;
+  background: white;
+}
+
+.channel-info{
+  display: inline-block;
+  width: 200px;
+  margin-top: 0px;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+.profile-picture{
+  width: 100%;
+  border-radius: 25px;
+}
+
+.thumbnail-row{
+  margin-bottom: 12px;
+}
+
+.video-author,
+.video-stats{
+  font-size: 12px;
+  color: rgb(96, 96, 96);
+}
+
+.video-author{
+  margin-bottom: 4px;
+}
+
+.video-stats{
+  margin-bottom: 12px;
+}
+
+.channel-logo,
+.channel-picture,
+.profile-picture{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+body {margin:0}
+
+.icon-bar {
+  width: 100px;
+  background-color: white;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: black;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #909090;
+}
+
+.side-bar{
+  display:block;
+  width: 90px;
+  text-align: center;
+  color: rgb(33, 37, 41);
+  font-size: 15px;
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+.sidebar-link:hover{
+  background-color: rgb(114, 109, 109);
+  color:black;
+}
+
+.sidebar{
+  display: grid;
+  grid-template-rows: 110px 110px 110px 110px 124px 110px;
+  color: black;
+}
+
+.channel-logo-info{
+  display:grid;
+  grid-template-columns: 50px 250px;
+}
+
+.sidebar-logo{
+  display: grid;
+  grid-template-rows: 50px 1fr;
+}
